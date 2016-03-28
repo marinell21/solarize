@@ -1,5 +1,5 @@
 body{
-
+	font: 12px/1.5 'Open Sans', Arial, sans-serif;
 }
 
 /* Typography */
@@ -52,6 +52,57 @@ textarea {
 
 /* Layout */
 .ba-container{
-	padding-left: 20px;
+	padding-left: 18px;
 	padding-right: 20px;
+}
+.ba-header {
+	background: url(../img/header-layout.jpg) no-repeat 50%;
+	background-size: cover;
+	color: #FFF;
+}
+.ba-nav-layout {
+	background-color: rgba(0, 0, 0, .7);
+}
+.ba-container {
+	max-width: 960px;
+}
+.ba-menu {
+	text-align-last: center;
+	list-style-type: none;
+	font-size: 0;
+}
+.ba-menu li {
+	display: inline-block;
+	font-size: 11px;
+}
+.ba-menu a {
+	display: block;
+	margin-right: 5px;
+	padding: 15px;
+	text-decoration: none;
+	letter-spacing: 3px;
+	color: #FFF;
+	transition: all .3s ease;
+}
+nav:hover a {
+	-webkit-filter: blur(1px);
+}
+nav a:hover {
+	-webkit-filter: blur(0px);
+}
+.ba-intro {
+	width: 660px;
+	padding: 40px 0;
+	letter-spacing: 2px;
+	text-align-last: center;
+}
+.ba-intro h3{
+	display: inline-block;
+	background-color: #82B440;
+	padding: 5px 2px;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+.ba-intro h3 + p {
+	margin-bottom: 20px;
 }
