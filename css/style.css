@@ -67,7 +67,7 @@ textarea {
 	max-width: 960px;
 }
 .ba-menu {
-	text-align-last: center;
+	text-align: center;
 	list-style-type: none;
 	font-size: 0;
 }
@@ -85,16 +85,18 @@ textarea {
 	transition: all .3s ease;
 }
 nav:hover a {
-	-webkit-filter: blur(1px);
+	color: transparent;
+	text-shadow: 0 0 3px #fff;
 }
 nav a:hover {
-	-webkit-filter: blur(0px);
+	color: #FFF;
+	text-shadow: none;
 }
 .ba-intro {
 	width: 660px;
 	padding: 40px 0;
 	letter-spacing: 2px;
-	text-align-last: center;
+	text-align: center;
 }
 .ba-intro h3{
 	display: inline-block;
